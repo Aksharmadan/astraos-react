@@ -1,12 +1,48 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌌 AstraOS — React Frontend Clone
 
-Currently, two official plugins are available:
+A responsive landing page inspired by the Pop!_OS website, rebuilt with **Vite + React** and customized with a unique brand identity called **AstraOS**.  
+Built as part of a frontend development task.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Project Structure
+astraos-react/
+├── public/ # static assets (images, favicon)
+│ └── assets/
+├── src/
+│ ├── components/ # React components (Header, Hero, Features, etc.)
+│ ├── App.jsx # Main app layout
+│ ├── index.css # Global styles
+│ └── main.jsx # Entry point
+├── package.json
+└── README.md
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- ⚡ **Hero Section** with CTA buttons and responsive image  
+- 📋 **Features Grid** with hover effects and icons  
+- 💻 **Showcase Section** with screenshot mockup  
+- 💬 **Testimonials Section** with user quotes  
+- ⬇ **Download Section** with platform options  
+- 🎯 **Final Call-to-Action** banner  
+- 📱 Fully **responsive** design (mobile → desktop)  
+- ♿ Accessibility basics: semantic HTML, alt text, reduced-motion support  
+
+## 🛠️ Tech Stack
+
+- [Vite](https://vitejs.dev/) + [React](https://react.dev/)  
+- Plain **CSS** (no frameworks)  
+- Hosted assets in `/public/assets`  
+- Deployed with [Vercel](https://vercel.com) (or Netlify / GitHub Pages)  
+
+
+## ⚙️ Setup & Local Development
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/<your-username>/astraos-react.git
+cd astraos-react
+npm install
+
